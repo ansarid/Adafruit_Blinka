@@ -7,6 +7,9 @@ from adafruit_blinka.microcontroller.am335x import pin
 
 # initial pins, to mimic bonescript demo
 # BeagleBone Black
+
+# P2_6 = pin.P2_6      # GPIO1_25 - GPIO_57
+
 # P8_1 = DGND        # DGND
 # P8_2 = DGND        # DGND
 P8_3 = pin.P8_3      # GPIO1_6 - GPIO_38
@@ -146,15 +149,15 @@ MDIR_4B = pin.P8_46
 # SCK_1 = pin.D21
 
 
-# GP0_3 = P8_
-# GP0_4 = P8_
-# GP0_5 = P8_
-# GP0_6 = P8_
-#
-# GP1_3 = P8_
-# GP1_4 = P8_
-# GP1_5 = P8_
-# GP1_6 = P8_
+GP0_3 = pin.P2_6
+GP0_4 = pin.P9_23
+GP0_5 = pin.P2_28
+GP0_6 = pin.P2_30
+
+# GP1_3 = pin.
+# GP1_4 = pin.
+GP1_5 = pin.P8_7
+GP1_6 = pin.P8_8
 
 
 
