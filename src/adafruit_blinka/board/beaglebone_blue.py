@@ -154,8 +154,8 @@ GP0_4 = pin.P9_23
 GP0_5 = pin.P2_28
 GP0_6 = pin.P2_30
 
-# GP1_3 = pin.
-# GP1_4 = pin.
+# GP1_3 = pin.     # Having trouble finging.
+# GP1_4 = pin.     # Having trouble finging.
 GP1_5 = pin.P8_7
 GP1_6 = pin.P8_8
 

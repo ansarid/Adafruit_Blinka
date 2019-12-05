@@ -15,7 +15,7 @@ print("hello blinky!")
 # led = digitalio.DigitalInOut(board.BATT_LED_3)
 # led = digitalio.DigitalInOut(board.BATT_LED_4)
 
-led = digitalio.DigitalInOut(board.P9_16)
+# led = digitalio.DigitalInOut(board.P8_32)
 
 led.direction = digitalio.Direction.OUTPUT
 
@@ -24,10 +24,3 @@ while True:
     time.sleep(0.5)
     led.value = False
     time.sleep(0.5)
-
-
-# P8_13
-# P8_19
-#
-# P9_14
-# P9_16
