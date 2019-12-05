@@ -109,6 +109,25 @@ LED_USR1 = pin.USR1
 LED_USR2 = pin.USR2
 LED_USR3 = pin.USR3
 
+BATT_LED_1 = pin.P8_17
+BATT_LED_2 = pin.P8_32
+BATT_LED_3 = pin.P8_26
+BATT_LED_4 = pin.P8_14
+
+PWM_1A = pin.P8_14
+PWM_2A = pin.P8_19
+PWM_1B = pin.P8_16
+PWM_2B = pin.P8_13
+
+MDIR_1A = pin.P8_28
+MDIR_1B = pin.P8_13
+MDIR_2A = pin.P8_15
+MDIR_2B = pin.P8_34
+MDIR_3A = pin.P8_44
+MDIR_3B = pin.P8_43
+MDIR_4A = pin.P8_45
+MDIR_4B = pin.P8_46
+
 # I2C and SPI pins from:
 # src/adafruit_blinka/board/raspi_40pin.py
 # SDA = pin.SDA
@@ -126,8 +145,61 @@ LED_USR3 = pin.USR3
 # SCLK_1 = pin.D21
 # SCK_1 = pin.D21
 
-SDA = pin.I2C2_SDA  # P9_19
-SCL = pin.I2C2_SCL  # P9_20
+
+# GP0_3 = P8_
+# GP0_4 = P8_
+# GP0_5 = P8_
+# GP0_6 = P8_
+#
+# GP1_3 = P8_
+# GP1_4 = P8_
+# GP1_5 = P8_
+# GP1_6 = P8_
+
+
+
+# UT0
+
+# UT1
+TX1 = pin.P8_24    # UART1_TXD - GPIO_15
+RX1 = pin.P8_26    # UART1_RXD - GPIO_14
+
+# GPS
+TX2 = pin.P8_21    # UART2_TXD - GPIO_3
+RX2 = pin.P8_22    # UART2_RXD - GPIO_2
+
+# RT = pin.P8_34    # UART3_RTSN - GPIO_81
+# CT = pin.P8_36    # UART3_CTSN - GPIO_80
+
+# DSM2
+RX4 = pin.P8_11    # UART4_RXD - GPIO_30
+# TX4 = pin.P9_13    # UART4_TXD - GPIO_31
+
+# RT = pin.P8_33    # UART4_RTSN - GPIO_9
+# CT = pin.P8_35    # UART4_CTSN - GPIO_8
+# CT = pin.P8_31    # UART5_CTSN - GPIO_10
+# RT = pin.P8_32    # UART5_RTSN - GPIO_11
+
+# UT5
+TX5 = pin.P8_37    # UART5_TXD - GPIO_78
+RX5 = pin.P8_38    # UART5_RXD - GPIO_79
+
+
+
+
+
+# SDA = pin.I2C2_SDA  # P9_19
+# SCL = pin.I2C2_SCL  # P9_20
+
+
+
+SCL1 = pin.P9_17    # I2C1_SCL - GPIO_5
+SDA1 = pin.P9_18    # I2C1_SDA - GPIO_4
+SCL2 = pin.P9_19    # I2C2_SCL - GPIO_13
+SDA2 = pin.P9_20    # I2C2_SDA - GPIO_12
+
+
+
 
 # Refer to header default pin modes
 # http://beagleboard.org/static/images/cape-headers.png
